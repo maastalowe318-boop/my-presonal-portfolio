@@ -1,0 +1,65 @@
+/* The CSS Rest */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: violet;
+    padding: 30px;
+}
+nav{
+    background-color: thistle;
+    text-align: center;
+    padding: 12px;
+}
+h1{
+    color: #ffffff;
+    text-align: center;
+}
+h2{
+    color: green;
+    border-bottom: 2px solid#14b8a6;
+    padding-bottom: 8px;
+    margin-top: 40px;       
+}
+p{
+    margin-top: 10px;
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin: 0 10px;
+}
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 14px;
+    display: inline-block;
+}
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+}
+.favorite{
+    background-color: #fef9c3;
+    font-weight: bold;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-left: 5px solid #14b8a6;
+    
+}
+footer{
+    background-color: aqua;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+.higlight{
+    background-color: #fff7b3;
+    padding: 10px;
+}
